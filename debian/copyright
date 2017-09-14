@@ -1,0 +1,368 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fcitx5
+Upstream-Contact: Weng Xuetian <wengxt@gmail.com>
+Source: https://github.com/fcitx/fcitx5
+
+Files:    *
+Copyright: 2010-2017 Weng Xuetian <wengxt@gmail.com>
+License:   LGPL-2.1+
+
+Files:     debian/*
+Copyright: 2017      Boyuan Yang <073plan@gmail.com>
+License:   LGPL-2+
+
+Files:     src/frontend/dbusfrontend/dbusfrontend.cpp
+           src/frontend/dbusfrontend/dbusfrontend.h
+           src/frontend/waylandim/waylandim.cpp
+           src/frontend/waylandim/waylandim.h
+           src/frontend/xim/xim.cpp
+           src/frontend/xim/xim.h
+           src/im/keyboard/chardata.h
+           src/im/keyboard/isocodes.cpp
+           src/im/keyboard/isocodes.h
+           src/im/keyboard/keyboard.cpp
+           src/im/keyboard/keyboard.h
+           src/im/keyboard/xkbrules.cpp
+           src/im/keyboard/xkbrules.h
+           src/im/keyboard/xmlparser.cpp
+           src/im/keyboard/xmlparser.h
+           src/lib/fcitx-config/configuration.cpp
+           src/lib/fcitx-config/configuration.h
+           src/lib/fcitx-config/enum.h
+           src/lib/fcitx-config/iniparser.cpp
+           src/lib/fcitx-config/iniparser.h
+           src/lib/fcitx-config/marshallfunction.cpp
+           src/lib/fcitx-config/marshallfunction.h
+           src/lib/fcitx-config/option.cpp
+           src/lib/fcitx-config/option.h
+           src/lib/fcitx-config/optiontypename.h
+           src/lib/fcitx-config/rawconfig.cpp
+           src/lib/fcitx-config/rawconfig.h
+           src/lib/fcitx-utils/capabilityflags.h
+           src/lib/fcitx-utils/charutils.h
+           src/lib/fcitx-utils/color.cpp
+           src/lib/fcitx-utils/color.h
+           src/lib/fcitx-utils/connectableobject.cpp
+           src/lib/fcitx-utils/connectableobject.h
+           src/lib/fcitx-utils/cutf8.cpp
+           src/lib/fcitx-utils/cutf8.h
+           src/lib/fcitx-utils/dbus/bus.cpp
+           src/lib/fcitx-utils/dbus/bus.h
+           src/lib/fcitx-utils/dbus/bus_p.h
+           src/lib/fcitx-utils/dbus/message.cpp
+           src/lib/fcitx-utils/dbus/message.h
+           src/lib/fcitx-utils/dbus/message_details.h
+           src/lib/fcitx-utils/dbus/message_p.h
+           src/lib/fcitx-utils/dbus/objectvtable.cpp
+           src/lib/fcitx-utils/dbus/objectvtable.h
+           src/lib/fcitx-utils/dbus/objectvtable_p.h
+           src/lib/fcitx-utils/dbus/objectvtablewrapper.c
+           src/lib/fcitx-utils/dbus/objectvtablewrapper_p.h
+           src/lib/fcitx-utils/dbus/sd-bus-wrap.h
+           src/lib/fcitx-utils/dbus/servicewatcher.cpp
+           src/lib/fcitx-utils/dbus/servicewatcher.h
+           src/lib/fcitx-utils/dynamictrackableobject.cpp
+           src/lib/fcitx-utils/dynamictrackableobject.h
+           src/lib/fcitx-utils/element.cpp
+           src/lib/fcitx-utils/element.h
+           src/lib/fcitx-utils/event.h
+           src/lib/fcitx-utils/event_common.cpp
+           src/lib/fcitx-utils/event_sdevent.cpp
+           src/lib/fcitx-utils/flags.h
+           src/lib/fcitx-utils/fs.cpp
+           src/lib/fcitx-utils/fs.h
+           src/lib/fcitx-utils/handlertable.h
+           src/lib/fcitx-utils/handlertable_details.h
+           src/lib/fcitx-utils/i18n.h
+           src/lib/fcitx-utils/i18nstring.cpp
+           src/lib/fcitx-utils/i18nstring.h
+           src/lib/fcitx-utils/inputbuffer.cpp
+           src/lib/fcitx-utils/inputbuffer.h
+           src/lib/fcitx-utils/intrusivelist.h
+           src/lib/fcitx-utils/key.cpp
+           src/lib/fcitx-utils/key.h
+           src/lib/fcitx-utils/keynametable-compat.h
+           src/lib/fcitx-utils/keynametable.h
+           src/lib/fcitx-utils/keysym.h
+           src/lib/fcitx-utils/keysymgen.h
+           src/lib/fcitx-utils/library.cpp
+           src/lib/fcitx-utils/library.h
+           src/lib/fcitx-utils/log.cpp
+           src/lib/fcitx-utils/log.h
+           src/lib/fcitx-utils/macros.h
+           src/lib/fcitx-utils/metastring.h
+           src/lib/fcitx-utils/misc.h
+           src/lib/fcitx-utils/rect.h
+           src/lib/fcitx-utils/signals.h
+           src/lib/fcitx-utils/signals_details.h
+           src/lib/fcitx-utils/standardpath.cpp
+           src/lib/fcitx-utils/standardpath.h
+           src/lib/fcitx-utils/stringutils.cpp
+           src/lib/fcitx-utils/stringutils.h
+           src/lib/fcitx-utils/textformatflags.h
+           src/lib/fcitx-utils/trackableobject.h
+           src/lib/fcitx-utils/tuplehelpers.h
+           src/lib/fcitx-utils/unixfd.cpp
+           src/lib/fcitx-utils/unixfd.h
+           src/lib/fcitx-utils/utf8.cpp
+           src/lib/fcitx-utils/utf8.h
+           src/lib/fcitx-wayland/core/display.cpp
+           src/lib/fcitx-wayland/core/display.h
+           src/lib/fcitx-wayland/core/outputinfomation.cpp
+           src/lib/fcitx-wayland/core/outputinformation.h
+           src/lib/fcitx/action.cpp
+           src/lib/fcitx/action.h
+           src/lib/fcitx/addonfactory.cpp
+           src/lib/fcitx/addonfactory.h
+           src/lib/fcitx/addoninfo.cpp
+           src/lib/fcitx/addoninfo.h
+           src/lib/fcitx/addoninstance.cpp
+           src/lib/fcitx/addoninstance.h
+           src/lib/fcitx/addonloader.cpp
+           src/lib/fcitx/addonloader.h
+           src/lib/fcitx/addonloader_p.h
+           src/lib/fcitx/addonmanager.cpp
+           src/lib/fcitx/addonmanager.h
+           src/lib/fcitx/candidatelist.cpp
+           src/lib/fcitx/candidatelist.h
+           src/lib/fcitx/event.cpp
+           src/lib/fcitx/event.h
+           src/lib/fcitx/focusgroup.cpp
+           src/lib/fcitx/focusgroup.h
+           src/lib/fcitx/focusgroup_p.h
+           src/lib/fcitx/frontend.cpp
+           src/lib/fcitx/frontend.h
+           src/lib/fcitx/globalconfig.cpp
+           src/lib/fcitx/globalconfig.h
+           src/lib/fcitx/inputcontext.cpp
+           src/lib/fcitx/inputcontext.h
+           src/lib/fcitx/inputcontext_p.h
+           src/lib/fcitx/inputcontextmanager.cpp
+           src/lib/fcitx/inputcontextmanager.h
+           src/lib/fcitx/inputcontextproperty.cpp
+           src/lib/fcitx/inputcontextproperty.h
+           src/lib/fcitx/inputcontextproperty_p.h
+           src/lib/fcitx/inputmethodconfig_p.h
+           src/lib/fcitx/inputmethodengine.h
+           src/lib/fcitx/inputmethodentry.h
+           src/lib/fcitx/inputmethodgroup.cpp
+           src/lib/fcitx/inputmethodgroup.h
+           src/lib/fcitx/inputmethodmanager.cpp
+           src/lib/fcitx/inputmethodmanager.h
+           src/lib/fcitx/inputpanel.cpp
+           src/lib/fcitx/inputpanel.h
+           src/lib/fcitx/instance.cpp
+           src/lib/fcitx/instance.h
+           src/lib/fcitx/menu.cpp
+           src/lib/fcitx/menu.h
+           src/lib/fcitx/misc_p.h
+           src/lib/fcitx/statusarea.cpp
+           src/lib/fcitx/statusarea.h
+           src/lib/fcitx/surroundingtext.cpp
+           src/lib/fcitx/surroundingtext.h
+           src/lib/fcitx/text.cpp
+           src/lib/fcitx/text.h
+           src/lib/fcitx/userinterface.cpp
+           src/lib/fcitx/userinterface.h
+           src/lib/fcitx/userinterfacemanager.cpp
+           src/lib/fcitx/userinterfacemanager.h
+           src/modules/clipboard/clipboard.cpp
+           src/modules/clipboard/clipboard.h
+           src/modules/clipboard/clipboard_public.h
+           src/modules/dbus/dbus_public.h
+           src/modules/dbus/dbusmodule.cpp
+           src/modules/dbus/dbusmodule.h
+           src/modules/notifications/notifications.cpp
+           src/modules/notifications/notifications.h
+           src/modules/notifications/notifications_public.h
+           src/modules/quickphrase/quickphrase.cpp
+           src/modules/quickphrase/quickphrase.h
+           src/modules/quickphrase/quickphrase_public.h
+           src/modules/spell/spell-custom-dict.cpp
+           src/modules/spell/spell-custom.cpp
+           src/modules/spell/spell-custom.h
+           src/modules/spell/spell-enchant.h
+           src/modules/spell/spell.cpp
+           src/modules/spell/spell.h
+           src/modules/spell/spell_public.h
+           src/modules/unicode/charselectdata.h
+           src/modules/unicode/unicode.cpp
+           src/modules/unicode/unicode.h
+           src/modules/wayland/wayland_public.h
+           src/modules/wayland/waylandmodule.cpp
+           src/modules/wayland/waylandmodule.h
+           src/modules/xcb/xcb_public.h
+           src/modules/xcb/xcbmodule.cpp
+           src/modules/xcb/xcbmodule.h
+           src/server/main.cpp
+           src/ui/classic/buffer.h
+           src/ui/classic/classicui.cpp
+           src/ui/classic/classicui.h
+           src/ui/classic/inputwindow.cpp
+           src/ui/classic/inputwindow.h
+           src/ui/classic/mainwindow.cpp
+           src/ui/classic/mainwindow.h
+           src/ui/classic/theme.cpp
+           src/ui/classic/theme.h
+           src/ui/classic/waylandeglwindow.cpp
+           src/ui/classic/waylandeglwindow.h
+           src/ui/classic/waylandshmwindow.cpp
+           src/ui/classic/waylandshmwindow.h
+           src/ui/classic/waylandui.cpp
+           src/ui/classic/waylandui.h
+           src/ui/classic/waylandwindow.cpp
+           src/ui/classic/waylandwindow.h
+           src/ui/classic/window.cpp
+           src/ui/classic/window.h
+           src/ui/classic/xcbinputwindow.cpp
+           src/ui/classic/xcbinputwindow.h
+           src/ui/classic/xcbmainwindow.cpp
+           src/ui/classic/xcbmainwindow.h
+           src/ui/classic/xcbtraywindow.cpp
+           src/ui/classic/xcbtraywindow.h
+           src/ui/classic/xcbui.cpp
+           src/ui/classic/xcbui.h
+           src/ui/classic/xcbwindow.cpp
+           src/ui/classic/xcbwindow.h
+           src/ui/kimpanel/kimpanel.cpp
+           src/ui/kimpanel/kimpanel.h
+           src/ui/simpleui/simpleui.cpp
+           src/ui/simpleui/simpleui.h
+           test/addon/dummyaddon.cpp
+           test/addon/dummyaddon_public.h
+           test/testaddon.cpp
+           test/testcandidatelist.cpp
+           test/testcolor.cpp
+           test/testconfig.cpp
+           test/testdbus.cpp
+           test/testdbusmessage.cpp
+           test/testdir.h.in
+           test/testelement.cpp
+           test/testevent.cpp
+           test/testflags.cpp
+           test/testfs.cpp
+           test/testhandlertable.cpp
+           test/testi18nstring.cpp
+           test/testinputbuffer.cpp
+           test/testinputcontext.cpp
+           test/testlibrary.cpp
+           test/testlist.cpp
+           test/testmenu.cpp
+           test/testmetastring.cpp
+           test/testservicewatcher.cpp
+           test/testsignals.cpp
+           test/teststandardpath.cpp
+           test/teststringutils.cpp
+           test/testsurroundingtext.cpp
+           test/testunixfd.cpp
+           test/testuserinterfacemanager.cpp
+           test/testxkbrules.cpp
+Copyright: 2010-2017 Weng Xuetian <wengxt@gmail.com>
+           2012-2013 Yichao Yu <yyc1992@gmail.com>
+License:   LGPL-2+
+
+Files:     src/modules/spell/dict/comp_spell_dict.cpp
+           src/modules/spell/spell-custom-dict.h
+           src/modules/spell/spell-enchant.cpp
+Copyright: 2012-2012  Yichao Yu <yyc1992@gmail.com>
+License:   GPL-2+
+
+Files:     cmake/FindIsoCodes.cmake
+           cmake/FindPresage.cmake
+           cmake/FindPthread.cmake
+Copyright: 2006 Chusslove Illich, <caslav.ilic@gmx.net>
+           2007 Alexander Neundorf, <neundorf@kde.org>
+           2012 CSSlayer <wengxt@gmail.com>
+           2016 Xuetian Weng <wengxt@gmail.com>
+License:   __UNKNOWN__
+Comments:
+ Redistribution and use is allowed according to the terms of the BSD license.
+ For details see the accompanying COPYING-CMAKE-SCRIPTS file.
+
+Files:     src/server/errorhandler.cpp
+           src/server/errorhandler.h
+Copyright: 2002-2005  Yuking
+License:   __NO_LICENSE__
+
+Files:     src/modules/unicode/gen.py
+Copyright: 2007 Daniel Laidig <d.laidig@gmx.de>
+License:   LGPL-2+
+
+Files:     src/modules/unicode/charselectdata.cpp
+Copyright: 2007       Daniel Laidig <d.laidig@gmx.de>
+           2012-2017  CSSlayer <wengxt@gmail.com>
+License:   LGPL-2+
+Comments:
+ this file is ported from kdelibs/kdeui/kcharselectdata.cpp
+ .
+ original file is licensed under LGPLv2+
+
+Files:     src/lib/fcitx-utils/keydata.h
+Copyright: 1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+License:   LGPL-2+
+Comments:
+ Modified by the GTK+ Team and others 1997-2000. See the AUTHORS
+ file for a list of people on the GTK+ Team. See the ChangeLog
+ files for a list of changes. These files are distributed with
+ GTK+ at ftp://ftp.gtk.org/pub/gtk/.
+ .
+ Thanks to Markus G. Kuhn <mkuhn@acm.org> for the ksysym<->Unicode
+ mapping functions, from the xterm sources.
+ .
+ These tables could be compressed by contiguous ranges, but the benefit of
+ doing so
+ is smallish. It would save about ~1000 bytes total.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; see the file COPYING. If not,
+ see <http://www.gnu.org/licenses/>.
+ .
+
+License:   LGPL-2+
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; see the file COPYING. If not,
+ see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General Public License
+ Version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License:   GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
